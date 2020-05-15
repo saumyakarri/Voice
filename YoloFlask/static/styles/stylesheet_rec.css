@@ -60,18 +60,67 @@ h1{
     background-color: black;
 }
 
- #button {
-  background-color: white; /* Green */
-  border: none;
-  color: black;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
+#leftside{
+    background-color: yellowgreen;
+    width: 50%;
+    float: left;
+    text-align: center;
+    height: 300px;
+    border-radius: 10px;
+    padding-top: 100px;
 }
 
-#footer{
+#rightside{
+    background-color: yellow;    
+    width: 50%;
+    float: right;
+    text-align: center;
+    height: 300px;
+    border-radius: 10px;
+    padding-top: 100px;
+}
+
+#input{
+    width: 300px;
+    height: 21px;
+    padding:10px;
+    font-size: 20px;
+}
+
+#button1{
+    background-color: indigo; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+   transition-duration: 0.4s;
+}
+
+#button1:hover{
+    border:2px solid #4CAF50; 
+    background-color: white;
+    color: #4CAF50;
+}
+
+#button2{
+    background-color: maroon; /* Green */
+    border: none;
+    color: white;
+    padding: 14px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  transition-duration: 0.4s;
+}
+
+#button2:hover{
+    border:2px solid maroon; 
+    background-color: white;
+    color: maroon;
 }
 
 
